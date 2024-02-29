@@ -43,7 +43,7 @@ const Skills = () => {
             <div className=' flex justify-evenly flex-wrap w-full h-full'>
             {
                     frontend.map((skill, i) => (
-                        <motion.div  whileInView={{scale:1}} initial={{scale:0}} transition={{duration:0.2,delay:0.2*i}} key={skill.name} className='p-2 w-[8rem] h-[8rem] flex justify-center items-center px-4 text-center'>
+                        <motion.div  whileInView={{scale:1}} initial={{scale:0}} transition={{duration:0.2,delay:0.01*i}} key={skill.name} className='p-2 w-[8rem] h-[8rem] flex justify-center items-center px-4 text-center'>
                             <skill.icon />
                         </motion.div>
                     ))
