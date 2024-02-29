@@ -105,7 +105,7 @@ interface Props {
 
 const Card = ({ item, index }: Props) => {
     return (
-        <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ duration: 0.7, delay: index * 0.2 }} className=' w-full flex flex-col justify-evenly text-white border border-neutral-700 p-2 rounded-xl'>
+        <motion.div initial={{ scale: 0 }} whileInView={{ scale: 1 }} transition={{ duration: 0.5, delay: index * 0.1 }} className=' w-full flex flex-col justify-evenly text-white border border-neutral-700 p-2 rounded-xl'>
             {
                 item.img ?
                     <img src={item.img} alt='' className=' rounded-xl' />
