@@ -7,3 +7,7 @@ html {
     color: rgb(50, 50, 103);
     scroll-behavior: smooth;
 }
+
+.hidescrollbar::-webkit-scrollbar {
+    display: hidden;
+}

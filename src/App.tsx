@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className='min-h-screen w-screen overflow-hidden'>
+    <div className='min-h-screen w-screen overflow-hidden hidescrollbar'>
       <Navbar />
       <Intro />
       <About/>
