@@ -24,7 +24,7 @@ const Projects = () => {
         {
             name: "Discord Clone",
             techs: "Nextjs, Prisma, Socket-io, TailwindCSS, Express, Node",
-            href: "https://github.com/sanke08",
+            href: "https://github.com/sanke08/discord-clone.git",
             img: img1,
             desc: ""
         },

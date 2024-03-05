@@ -28,8 +28,8 @@ const Intro = () => {
                     </motion.p>
                 </motion.div>
             </div>
-            <div className=" w-[40rem] h-[40rem] md:h-[55rem] md:w-[55rem] overflow-hidden hidescrollbar relative ">
-                <p className=" absolute w-full h-full bg-gradient-to-r from-black/40 to-black/20 z-50 rounded-full" />
+            <div className=" w-[40rem] h-[30rem] md:h-[55rem] md:w-[55rem] overflow-hidden hidescrollbar -translate-y-10 md:translate-y-0 relative -z-10">
+                <p className=" absolute w-full h-full bg-gradient-to-r from-black/40 to-black/20 z-50" />
                 <motion.img whileInView={{ translateX: 0, translateY: 0, scale: 1 }} initial={{ translateX: 100, translateY: 100, scale: 0.8 }} transition={{ duration: 1 }} src={img} alt="" className="absolute w-full h-full filter object-contain  -z-10  saturate-0 rounded-full" />
             </div>
         </div>
